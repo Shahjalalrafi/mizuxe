@@ -1,0 +1,98 @@
+
+.navbar{
+	box-shadow: 2px 2px 5px red;
+	background:#fff;
+	opacity: .9;
+}
+.navbar-item{
+	font-size: 22px;
+	margin-right: 20px;
+	color: black;
+}
+.navbar-item:last-child{
+	margin-right: 0px;
+}
+.navbar  a{
+	color: #333;
+}
+.navbar a:hover{
+	color: red;
+}
+
+
+/* SHOWCASE SECTION*/
+
+.showcase-section{
+	background:url(img/mountain.jpg);
+}
+.primary-overlay{
+	background: rgba( 50,146,156,.9);
+}
+.showcase-section .btn{
+	border-radius: 0px;
+}
+
+
+/*SUBSCRIBE*/
+
+#subscribe .btn{
+	background: #3292a6;
+	border-color: #3292a6;
+}
+
+/*BOXES*/
+
+#boxes .card .card-body .heading{
+	background: #3292a6;
+}
+
+/*ABOUT*/
+
+#about h3{
+	color: #3292a6;
+}
+
+/*AUTORS*/
+.meet h3{
+	color:  #3292a6;
+}
+.meet .fa{
+	font-size: 25px;
+	color: #3292a6;
+}
+.meet img{
+	margin-top: -60px;
+}
+.meet .card:hover{
+	background: #3292a6;
+	color: #fff;
+}
+.meet .card:hover .fa{
+	color: #fff;
+}
+
+.contact .submit-btn{
+	background: #3292a6;
+	border: none;
+	color: #fff;
+	padding: 10px 30px;
+	border-radius: 5px;
+}
+
+/*footer*/
+footer{
+	background: #3292a6;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 576px){
+	.showcase-section h1{
+		font-size: 60px;
+	}
+}
